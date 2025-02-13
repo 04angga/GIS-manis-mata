@@ -41,7 +41,7 @@ document.getElementById("enter-button").addEventListener("click", function () {
   fetch(
     "https://raw.githubusercontent.com/username/WEB-GIS/main/data/map.geojson"
   );
-  fetch("data/map.geojson")
+  fetch("map.geojson")
     .then((response) => response.json())
     .then((data) => {
       // Menambahkan GeoJSON ke peta
